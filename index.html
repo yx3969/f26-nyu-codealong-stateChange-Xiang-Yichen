@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson Progress Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ============================================================
+         LESSON PROGRESS TRACKER
+         ============================================================
+         A learner clicks the button as they finish each step of a
+         lesson. The page remembers how many steps are complete and
+         responds. All of that logic lives in script.js.
+         ============================================================ -->
+
+    <main class="tracker">
+      <h1>Giving Useful Feedback</h1>
+
+      <p id="progress-text" class="progress-text">0 of 3 steps complete</p>
+
+      <div class="step">
+        <h2 id="step-title">Be specific</h2>
+        <p id="step-description">
+          Point to one exact moment in the work. "The second example made this
+          click" helps more than "Nice job."
+        </p>
+      </div>
+
+      <button id="complete-button" type="button">Mark step complete</button>
+
+      <p id="message" class="message" role="status">
+        Click the button when you finish a step.
+      </p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

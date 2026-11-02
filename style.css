@@ -1,0 +1,67 @@
+/* === RESET === */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === PAGE STYLING === */
+body {
+  font-family: system-ui, sans-serif;
+  min-height: 100vh;
+  padding: 2rem;
+  background: #f0f0f0;
+  color: #333;
+}
+
+/* === TRACKER CARD === */
+.tracker {
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.step {
+  margin-bottom: 1.5rem;
+}
+
+.step h2 {
+  margin-bottom: 0.25rem;
+  font-size: 1.125rem;
+}
+
+.progress-text {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.message {
+  margin-top: 1.5rem;
+}
+
+/* === BUTTON === */
+button {
+  min-height: 44px;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  background: #1d4ed8;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #6b7280;
+  cursor: not-allowed;
+}
